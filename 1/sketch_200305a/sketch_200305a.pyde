@@ -7,3 +7,5 @@ def draw():
         fill(c)
     else:
         clear()
+  # o to chodziło
+  # 2pkt
