@@ -12,8 +12,8 @@ def setup():
     klatka=0
     
     global x, y, kierunek_x, kierunek_y
-    x=240
-    y=480
+    x=width/2
+    y=height # lepiej używać zmiennych zależnych tam gdzie się da; jak zechcesz powiększyć okno, to wówczas nie wpłyniena działąnie programu - zachowa się proporcjonalnie
     kierunek_x = 5
     kierunek_y = 5
     
@@ -24,8 +24,7 @@ def draw():
     x += kierunek_x 
     if x > width or x < 0:
         kierunek_x *= -1
-        klatka += 1
-        
+        klatka += 1        
         
     y += kierunek_y
     if y > height or y<0:
@@ -36,15 +35,13 @@ def draw():
     circle(x, y, 100) 
     
     fill(178,34,34)
-    square (0,0,50)
-
-    
+    square(0,0,50)
     line(2,2,48,48)
     line(48,2, 2, 48)
     
-    
     if mouseY > 0 and mouseY< 50 and mouseX > 0 and mouseX < 50:
         if mousePressed and (mouseButton == LEFT):
-            exit() 
+            exit()
+#2pkt
 
     
