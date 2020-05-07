@@ -7,10 +7,10 @@ def setup():
     global oksy
     global razem
     global p1
-    ana = loadImage("Ana.png")
-    was = loadImage("was.png")
-    oksy = loadImage("oksy.png")
-    razem = loadImage("razem.png")
+    ana = loadImage("Ana.png") 
+    was = loadImage("was.png") # korzystniej byłoby, gdyby była wczytana grafika z samym wąśem ,nie z nałożonym już na zdjęcie - to miał robić program
+    oksy = loadImage("oksy.png") # zwłąszcza, że testuję na swoim zdjęciu by sprawdzić, jak radzicie sobie z inną rozdzielczością i czasem proporcją niż wybrana przez was
+    razem = loadImage("razem.png") # w poleceniu było "Program ma wczytać dowolne standardowe zdjęcie dokumentowe", tu narzucasz zastąpieniem przez swoje
     p1 = 0
     
 def draw():
@@ -101,7 +101,8 @@ def draw():
         if mousePressed and (mouseButton == LEFT):
             exit()
                                 
-            
+# przekombinowane, ale wczytywać obrazki i zapisywać pdfy umiesz ;)
+# 1,75p
             
     
 
