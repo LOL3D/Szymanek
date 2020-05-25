@@ -16,8 +16,8 @@ class PasiastyKwadrat(Kwadrat):
             _xLinii_ +=space
             
 class KolorowyKwadrat(Kwadrat):
-    def sketchKolorowy(self, x, y, r, g, b):
-        fill(r, g, b)
+    def sketchKolorowy(self, x, y, kolor): # trochę dużo tych argumentów i zatraca się czytelność, proponuję agregować, gdy robi się ich dużo
+        fill(*kolor)
         Kwadrat.sketch(self, x, y)
         
             
@@ -30,6 +30,10 @@ def setup():
     malyPasiastyKwadrat = PasiastyKwadrat(30.0)
     malyPasiastyKwadrat.sketchPasiasty(300, 300, 5)
     malykolorowyKwadrat = KolorowyKwadrat(50.0)
-    malykolorowyKwadrat.sketchKolorowy(250,250,255,51,0)
+    kolor1 = (255,51,0)
+    malykolorowyKwadrat.sketchKolorowy(250,250,kolor1)
     duzykolorowyKwadrat = KolorowyKwadrat(70.0)
-    duzykolorowyKwadrat.sketchKolorowy(330,330,0, 51, 204)
+    kolor2 = (0, 51, 204)
+    duzykolorowyKwadrat.sketchKolorowy(330,330,kolor2)
+    
+#2pkt
