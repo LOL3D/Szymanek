@@ -1,0 +1,20 @@
+Bankomat - NazwaKlasy 
+baza_klientow - atrybut_klasy 
+zasob_gotówki - atrybut_klasy
+sprawdz_dane_logowania() - metoda
+numer_karty - atrybut
+pin - atrybut
+wyplac() - metoda 
+kwota - atrybut
+wplac() - metoda
+kwota - atrybut
+
+Klient - NazwaKlasy
+srodki_na_koncie - atrybut_klasy
+dane_logowania()
+numer_karty - atrybut
+pin - atrybut
+wyplata() - metoda
+kwota - atrybut
+wplata() - metoda
+kwota - atrybut
