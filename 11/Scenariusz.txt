@@ -1,0 +1,20 @@
+Drogeria, klientka wchodzi do sklepu.
+
+Klientka: Dzień Dobry, chciałabym sprawdzić wszystkie perfumy jakie macie, mogę otworzyć po jednym pudełku?
+Ekspedientka: Niestety, nie może Pani otworzyć zapachów, ale może Pani skorzystać
+z testerów, czyli rozcieńczonych próbek, które reprezentują prawdziwe zapachy, jakie mamy w naszej ofercie.
+Dopiero po zakupie będzie Pani mogła otworzyć pudełko.
+Klientka: Dobrze, w takim razie poproszę te testery.
+
+WZORZEC: pełnomocnik
+
+DLACZEGO: Ekspedientka blokuje dostęp do kosztownego zasobu, w tym przypadku oryginalnych perfum.
+Zamiast tego oferuje testery, które mają takie same właściwości 
+jak oryginalne zapachy, jednak są mniej kosztowne. 
+Z oryginałów możemy skorzystać, dopiero, kiedy zdecydujemy 
+się na konkretny egzemplarz (w tym przypadku kiedy klientka kupi konkretny produkt).
+
+
+
+
+
