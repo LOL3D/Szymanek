@@ -34,17 +34,17 @@ def setup():
     komunikat = Komunikat()
     
     try:
-        obraz.wyswietl(m)
-        stroke(65, 155, 209)
-        ramka.wyswietl()
+        obraz.wyswietl(m) # sprawdeniepod kątem wyjątku powinno dotyczyć wyłąćznie sprawdzenia wczytanai i wyświetlenia obrazu
         
-                
     except:
         komunikat.wyswietl()
         stroke(210, 25, 41)
-        ramka.wyswietl()
         
     else:
-        obraz.wyswietl(m)
         stroke(65, 155, 209)
-        ramka.wyswietl()
+        
+    finally:
+        ramka.wyswietl() # to robisz w obydwu wypadkach
+        
+#1,75pkt i plus za ładną oganizację kodu
+        
