@@ -54,3 +54,5 @@ def mouseClicked():
         pet.speak()
         if isinstance(pet, Dog):
             pet.gimmePaw()
+            
+#2pkt
